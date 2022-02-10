@@ -1,4 +1,4 @@
-# Sorting Visualization
+# Sorting Visualizer
 ### This contain the visualization of following Algorithms -> 
 - Bubble Sort 
 - Selection Sort
