@@ -1,0 +1,90 @@
+body {
+    background-color: #CFFFDC;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-align: center;
+    zoom: 75%;
+    height: 100vh;
+}
+
+/*Navbar*/
+.container-fluid {
+    padding: 1% 2% 0 2%;
+    text-align: left;
+
+}
+
+.speedrange.sizerange {
+    color: whitesmoke;
+}
+
+.appname {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.navitemsList {
+    margin-left: auto;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-link,
+.newArray {
+    margin-right: 1rem;
+}
+
+.navdropdown {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*Bars*/
+.barsCon {
+    margin-top: 5%;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+}
+.startingArray {
+    height: 500px;
+    width: 0.1%;
+    display: inline-block;
+}
+.bar {
+    background-color: #57CC99;
+    margin-right: 0.1%;
+    margin-left: 0.3%;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 3px 5px #888888;
+    bottom: 0px;
+}
+
+
+/*SortBUtton*/
+#sort-button {
+    font-size: 2rem;
+    border-radius: 50px;
+    box-shadow: 5px 3px #888888;
+    font-weight: 900;
+    width: 80%;
+    margin: 2% 10%;
+}
+
+/*Footer*/
+#footer {
+    text-align: center;
+    padding: 2% 6%;
+}
+.link{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: brown; 
+}
+.social {
+    margin: 18px 10px;
+}
+.Copyright{
+    margin-bottom: 0.5%;
+}
