@@ -12,7 +12,7 @@ function bubbleSort() {
                 animation(bars[j], barsHeight[j], c2);
                 animation(bars[j + 1], barsHeight[j + 1], c1);
             }
-
+            //if not swapping then already in order hence just change their color.
             animation(bars[j], barsHeight[j], cm);
             animation(bars[j + 1], barsHeight[j + 1], cm);
         }
@@ -21,5 +21,3 @@ function bubbleSort() {
     //sorted region
     animation(bars[0], barsHeight[0], sorted);
 }
-
-//animation here is used to change color of bars when performed certain operations.
